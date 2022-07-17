@@ -149,17 +149,34 @@ img{
     align-items: center;
 }
 
+
 .header-contacts .item:not(:last-child) {
     margin-right: 50px;
 }
 
+.header-contacts .item{
+    display: flex;
+}
+
+.icon-mail, .icon-smartphone {
+    fill: #757575;
+    margin-right: 10px;
+}
+
+.icon-mail:hover, .icon-mail:focus,
+.icon-smartphone:hover, .icon-smartphone:focus  {
+    fill: var(--special-txt-cl);
+}
+
+
 .contacts-link{
-    display: block;
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
+    align-items: center;
 
     padding-top: 32px;
     padding-bottom: 31px;
