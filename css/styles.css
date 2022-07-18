@@ -158,15 +158,17 @@ img{
     display: flex;
 }
 
-.icon-mail, .icon-smartphone {
-    fill: #757575;
+.icon-envelope, .icon-smartphone {
+    --icon-color: currentColor;
     margin-right: 10px;
 }
 
-.icon-mail:hover, .icon-mail:focus,
+
+
+/* .icon-envelope:hover, .icon-envelope:focus,
 .icon-smartphone:hover, .icon-smartphone:focus  {
     fill: var(--special-txt-cl);
-}
+} */
 
 
 .contacts-link{
