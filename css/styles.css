@@ -245,6 +245,10 @@ img{
     padding-bottom: 200px;
 }
 
+.order-container{
+    background-image: url();
+}
+
 .order-headline{
     margin-bottom: 30px;
 
