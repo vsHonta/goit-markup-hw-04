@@ -390,8 +390,6 @@ img{
 }
 
 .team-list .item{
-    /* margin-bottom: 94px; */
-
     background-color: #FFFFFF ;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -437,7 +435,7 @@ img{
     min-height: 44px;
 }
 
-.team-social-link:hover{
+.team-social-link:hover, .team-social-link:focus{
     background-color: #188CE8;
     color: #FFFFFF;
 }
@@ -445,6 +443,46 @@ img{
 .team-svg-icon{
     --icon-social-color: currentColor;
 }
+
+
+/* Regular Customers */
+.cstmrs{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.cstmrs-title{
+    margin: 0 auto 50px;
+
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;;
+}
+
+.cstmrs-logo{
+    display: flex;
+    gap: 30px
+}
+
+.cstmrs-logo .item{
+    padding: 16px 31px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    color: #AFB1B8;
+}
+
+.cstmrs-logo .item:hover{
+    color: var(--special-txt-cl);
+    border-color: var(--special-txt-cl);
+}
+
+
+.icon-logo{
+    --icon-logo-color: currentColor;
+}
+
 
 
 
