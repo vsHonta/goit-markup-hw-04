@@ -197,6 +197,11 @@ img{
     padding-bottom: 60px;
 }
 
+.ftr-container{
+    display: flex;
+    align-items: baseline;
+}
+
 .ftr-logo{
     display: block;
     margin-bottom: 20px;
@@ -232,10 +237,53 @@ img{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.addr-list{
+    min-width: 231px;
+    margin-right: 70px;
+}
 
 .addr-link:hover{
     color: var(--special-txt-cl);
 }
+
+.ftr-text{
+    color: #FFFFFF;
+
+    font-style: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+
+    margin-bottom: 20px;
+}
+
+.ftr-social{
+    display: flex;
+    gap: 10px;
+}
+
+.ftr-social .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.ftr-social .item:hover{
+    /* color: #FFFFFF; */
+    background-color: var(--special-txt-cl);
+}
+
+.icon-ftr{
+    --icon-ftr-color: currentColor;
+}
+
 
 /* Main */
 /* Section with an order button */
@@ -417,7 +465,7 @@ img{
     color: var(--secondary-txt-cl);
 }
 
-.team-socials{
+.team-social{
     display: flex;
     padding: 0 32px 30px;
     gap: 10px;
