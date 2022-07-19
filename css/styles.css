@@ -307,6 +307,7 @@ img{
     padding: 25px 100px ;
     background-color: var(--grey-bg-color);
     margin-bottom: 30px;
+    border-radius: 4px;
 }
 
 .advnt-list .advnt-list-title {
@@ -398,7 +399,7 @@ img{
 
 .team-text{
     padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .team .team-list-title{
@@ -417,6 +418,35 @@ img{
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
 }
+
+.team-socials{
+    display: flex;
+    padding: 0 32px 30px;
+    gap: 10px;
+}
+
+.team-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    color: #AFB1B8;
+
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.team-social-link:hover{
+    background-color: #188CE8;
+    color: #FFFFFF;
+}
+
+.team-svg-icon{
+    --icon-social-color: currentColor;
+}
+
+
 
 /*  */
 /* Portfolio */ 
