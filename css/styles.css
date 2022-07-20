@@ -347,17 +347,29 @@ img{
     padding-bottom: 94px;
 }
 
-.advnt-svg-box{
+.advnt-icon-svg{
+    margin-bottom: 30px;
+    background-color: var(--grey-bg-color);
+
     display: flex;
-    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+    width: 270px;
+    height: 120px;
 }
 
-.advnt-svg-box .item{
+/* .advnt-svg-box{
+    display: flex;
+    gap: 30px;
+} */
+
+/* .advnt-svg-box .item{
     padding: 25px 100px ;
     background-color: var(--grey-bg-color);
     margin-bottom: 30px;
     border-radius: 4px;
-}
+} */
 
 .advnt-list .advnt-list-title {
     font-size: 14px;
@@ -421,7 +433,7 @@ img{
 /* Team */  
 
 .team{
-    background-color: #F5F4FA;
+    background-color: var(--grey-bg-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
