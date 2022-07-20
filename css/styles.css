@@ -650,14 +650,11 @@ img{
     border: 1px solid #EEEEEE; ;
 }
 
-.example-link:hover, .example-link:focus{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+.examples-list > .item:hover, .examples-list>.item:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-
-.exampl-text-group:hover, .exampl-text-group:focus {
-    box-shadow:  inherit;
-}
 
 .exampl-title{
     margin-bottom: 4px;
