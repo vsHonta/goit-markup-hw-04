@@ -249,9 +249,10 @@ img{
 .ftr-text{
     color: #FFFFFF;
 
-    font-style: 700;
+    font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
+    
 
     margin-bottom: 20px;
 }
@@ -511,25 +512,37 @@ img{
 .cstmrs-logo{
     display: flex;
     gap: 30px
+
 }
 
-.cstmrs-logo .item{
-    padding: 16px 31px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
+.cstmrs-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
 
     color: #AFB1B8;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
-.cstmrs-logo .item:hover{
-    color: var(--special-txt-cl);
-    border-color: var(--special-txt-cl);
+.cstmrs-link:hover, .cstmrs-link:focus{
+    color: #188CE8;
+    border-color: #188CE8;
 }
 
-
-.icon-logo{
+.icon-logo {
     --icon-logo-color: currentColor;
 }
+
+/* .cstmrs-logo .item:hover{
+    color: var(--special-txt-cl);
+    border-color: var(--special-txt-cl);
+} */
+
+
 
 
 
